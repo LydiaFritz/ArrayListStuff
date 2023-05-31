@@ -7,7 +7,7 @@ package mystring;
  * @author a4432_asu
  *
  */
-public class MyString {
+public class MyString implements Comparable<MyString>{
 
 	//TEST YOUR CODE HERE
 	public static void main(String[] args) {
@@ -38,6 +38,13 @@ public class MyString {
 		//create MyString with 0 characters
 		arr = new char[5];
 		curr_len = 0;
+	}
+
+	//Implement
+	@Override
+	public int compareTo(MyString o) {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 		
 
